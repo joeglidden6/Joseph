@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sweet Haven Bakery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sweet Haven Bakery</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Freshly Baked Every Morning</h2>
+      <p>Delicious breads, pastries, and cakes made with love.</p>
+      <a href="#menu" class="btn">See Our Menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1608198093002-dea64b26c1a9?auto=format&fit=crop&w=600&q=80" alt="Croissant" />
+        <h3>Butter Croissant</h3>
+        <p>Flaky, buttery perfection — straight from the oven.</p>
+        <span>$3.00</span>
+      </div>
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="Cupcake" />
+        <h3>Vanilla Cupcake</h3>
+        <p>Soft vanilla sponge topped with creamy butter frosting.</p>
+        <span>$2.50</span>
+      </div>
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=600&q=80" alt="Bread loaf" />
+        <h3>Artisan Bread</h3>
+        <p>Freshly baked sourdough loaf with a crispy crust.</p>
+        <span>$5.00</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Sweet Haven Bakery, we believe that baking is an art. Our bakers use the finest ingredients to craft breads, pastries, and desserts that warm the heart and delight the senses. Visit us for a taste of happiness!</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@sweethaven.com">info@sweethaven.com</a></p>
+    <p>Phone: (555) 123-4567</p>
+    <p>Visit: 123 Main Street, Pastrytown</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sweet Haven Bakery | Baked with ❤️ every day</p>
+  </footer>
+</body>
+</html>
