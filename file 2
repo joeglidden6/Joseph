@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: #333;
+  background-color: #fffaf7;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  color: #d16b5b;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d16b5b;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text {
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #d16b5b;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #b85849;
+}
+
+/* Menu */
+.menu {
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.menu h2 {
+  color: #d16b5b;
+  margin-bottom: 40px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 280px;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.item h3 {
+  margin: 10px 0 5px;
+  color: #d16b5b;
+}
+
+.item span {
+  font-weight: bold;
+}
+
+/* About */
+.about {
+  padding: 60px 50px;
+  background-color: #ffeae2;
+  text-align: center;
+}
+
+.about h2 {
+  color: #d16b5b;
+  margin-bottom: 20px;
+}
+
+/* Contact */
+.contact {
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.contact a {
+  color: #d16b5b;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #d16b5b;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
